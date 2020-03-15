@@ -107,3 +107,216 @@ Fontconfig error: "/etc/fonts/local.conf", line 1: not well-formed (invalid toke
 1584219491201	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
 1584219491202	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
 1584219491203	Marionette	DEBUG	Marionette stopped listening
+1584221993951	geckodriver	INFO	geckodriver 0.21.0
+1584221993956	geckodriver	INFO	Listening on 127.0.0.1:59715
+1584221994974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yB36e6Ac3gcp"
+*** You are running in headless mode.
+1584221995336	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584221995936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584221995937	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584221995938	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584221995938	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584221995985	Marionette	TRACE	Received observer notification profile-after-change
+Fontconfig error: "/etc/fonts/local.conf", line 1: not well-formed (invalid token)
+1584221996015	Marionette	TRACE	Received observer notification command-line-startup
+1584221996016	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1584221996068	Marionette	TRACE	Received observer notification toplevel-window-ready
+Fontconfig error: "/etc/fonts/local.conf", line 1: not well-formed (invalid token)
+Fontconfig error: "/etc/fonts/local.conf", line 1: not well-formed (invalid token)
+1584221997509	Marionette	TRACE	Received observer notification marionette-startup-requested
+1584221997510	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1584221997556	Marionette	TRACE	All scripts recorded.
+1584221997557	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1584221997558	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1584221997559	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1584221997560	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1584221997561	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1584221997566	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1584221997568	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1584221997569	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1584221997570	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1584221997571	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1584221997571	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1584221997572	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1584221997573	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1584221997573	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1584221997575	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1584221997576	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1584221997576	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1584221997577	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1584221997577	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1584221997578	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1584221997579	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1584221997580	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1584221997580	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1584221997581	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1584221997581	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1584221997582	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1584221997582	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1584221997583	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1584221997585	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1584221997586	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1584221997587	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1584221997588	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+Fontconfig error: "/etc/fonts/local.conf", line 1: not well-formed (invalid token)
+1584221997638	Marionette	INFO	Listening on port 45751
+1584221997639	Marionette	DEBUG	Marionette is listening
+1584221997686	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:52302
+1584221997688	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1584221997690	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584221997718	Marionette	TRACE	[15] Frame script loaded
+1584221997720	Marionette	TRACE	[15] Frame script registered
+1584221997727	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"c97c896f-353c-42df-ba26-608e4a6fa786","capabilities":{"browserName":"firefox","browserVersion":"74.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1584221997734	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://uta.pw/sakusibbs/users.php?action=login"}]
+1584221997749	Marionette	TRACE	[15] Received DOM event beforeunload for about:blank
+1584221998448	Marionette	TRACE	[15] Received DOM event pagehide for about:blank
+1584221998589	Marionette	TRACE	[15] Received DOM event DOMContentLoaded for https://uta.pw/sakusibbs/users.php?action=login
+1584222000432	Marionette	TRACE	[15] Received DOM event pageshow for https://uta.pw/sakusibbs/users.php?action=login
+1584222000435	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1584222000448	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"user\"]"}]
+1584222000454	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"58e5210b-b3e0-4f01-9cbf-fed801b31dff"}}]
+1584222000458	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementClear",{"id":"58e5210b-b3e0-4f01-9cbf-fed801b31dff"}]
+1584222000464	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1584222000467	Marionette	DEBUG	0 -> [0,5,"WebDriver:ElementSendKeys",{"id":"58e5210b-b3e0-4f01-9cbf-fed801b31dff","text":"test!1234","value":["t","e","s","t","!","1","2","3","4"]}]
+1584222000488	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1584222000491	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"pass\"]"}]
+1584222000496	Marionette	DEBUG	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"076df592-badd-49c7-be74-68b5bcb39285"}}]
+1584222000499	Marionette	DEBUG	0 -> [0,7,"WebDriver:ElementClear",{"id":"076df592-badd-49c7-be74-68b5bcb39285"}]
+1584222000503	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1584222000506	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"076df592-badd-49c7-be74-68b5bcb39285","text":"test!1234","value":["t","e","s","t","!","1","2","3","4"]}]
+1584222000521	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1584222000524	Marionette	DEBUG	0 -> [0,9,"WebDriver:FindElement",{"using":"css selector","value":"#loginForm form"}]
+1584222000526	Marionette	DEBUG	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6dafaf5f-27ae-49b5-81c6-311c9f9e7393"}}]
+1584222000528	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElement",{"element":"6dafaf5f-27ae-49b5-81c6-311c9f9e7393","using":"xpath","value":"./ancestor-or-self::form"}]
+1584222000531	Marionette	DEBUG	0 <- [1,10,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6dafaf5f-27ae-49b5-81c6-311c9f9e7393"}}]
+1584222000533	Marionette	DEBUG	0 -> [0,11,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"6dafaf5f-27ae-49b5-81c6-311c9f9e7393","element-6066-11e4-a52e-4f735466ce ... bmit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }","scriptTimeout":null,"specialPowers":false}]
+1584222000543	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1584222000549	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"css selector","value":".islogin"}]
+1584222000553	Marionette	DEBUG	0 <- [1,12,{"error":"no such element","message":"Unable to locate element: .islogin","stacktrace":"WebDriverError@chrome://marione ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:331:16\n"},null]
+1584222001056	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElement",{"using":"css selector","value":".islogin"}]
+1584222001059	Marionette	DEBUG	0 <- [1,13,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f5acced0-b14d-4242-8ef6-aba81cf5a580"}}]
+1584222001062	Marionette	DEBUG	0 -> [0,14,"WebDriver:FindElement",{"using":"css selector","value":".islogin a"}]
+1584222001064	Marionette	DEBUG	0 <- [1,14,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"270a388c-8b16-41d8-b48d-57e6e61464d9"}}]
+1584222001067	Marionette	DEBUG	0 -> [0,15,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"270a388c-8b16-41d8-b48d-57e6e61464d9","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1584222001072	Marionette	DEBUG	0 <- [1,15,null,{"value":"https://uta.pw/sakusibbs/users.php?user_id=1335"}]
+1584222001077	Marionette	DEBUG	0 -> [0,16,"WebDriver:Navigate",{"url":"https://uta.pw/sakusibbs/users.php?user_id=1335"}]
+1584222001082	Marionette	TRACE	[15] Received DOM event beforeunload for https://uta.pw/sakusibbs/index.php
+1584222001193	Marionette	TRACE	[15] Received DOM event pagehide for https://uta.pw/sakusibbs/index.php
+1584222001195	Marionette	TRACE	[15] Received DOM event unload for https://uta.pw/sakusibbs/index.php
+1584222001226	Marionette	TRACE	[15] Received DOM event DOMContentLoaded for https://uta.pw/sakusibbs/users.php?user_id=1335
+1584222001399	Marionette	TRACE	[15] Received DOM event pageshow for https://uta.pw/sakusibbs/users.php?user_id=1335
+1584222001403	Marionette	DEBUG	0 <- [1,16,null,{"value":null}]
+1584222001414	Marionette	DEBUG	0 -> [0,17,"WebDriver:FindElement",{"using":"css selector","value":"#favlist li > a"}]
+1584222001419	Marionette	DEBUG	0 <- [1,17,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4ca1b9d9-3722-440a-878e-a323125453a9"}}]
+1584222001454	Marionette	DEBUG	Closed connection 0
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1584222074552	geckodriver	INFO	geckodriver 0.21.0
+1584222074558	geckodriver	INFO	Listening on 127.0.0.1:33647
+1584222075584	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HuzCoV3P9SPJ"
+*** You are running in headless mode.
+1584222075936	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584222076461	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584222076462	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584222076463	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584222076464	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584222076511	Marionette	TRACE	Received observer notification profile-after-change
+Fontconfig error: "/etc/fonts/local.conf", line 1: not well-formed (invalid token)
+1584222076542	Marionette	TRACE	Received observer notification command-line-startup
+1584222076543	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1584222076595	Marionette	TRACE	Received observer notification toplevel-window-ready
+Fontconfig error: "/etc/fonts/local.conf", line 1: not well-formed (invalid token)
+Fontconfig error: "/etc/fonts/local.conf", line 1: not well-formed (invalid token)
+1584222078100	Marionette	TRACE	Received observer notification marionette-startup-requested
+1584222078101	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1584222078160	Marionette	TRACE	All scripts recorded.
+1584222078162	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1584222078163	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1584222078163	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1584222078165	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1584222078166	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1584222078167	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1584222078168	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1584222078169	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1584222078169	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1584222078169	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1584222078170	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1584222078170	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1584222078171	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1584222078172	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1584222078174	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1584222078175	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1584222078176	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1584222078176	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1584222078177	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1584222078178	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1584222078181	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1584222078182	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1584222078182	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1584222078183	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1584222078183	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1584222078184	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1584222078184	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1584222078187	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1584222078188	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1584222078189	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1584222078189	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1584222078190	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+Fontconfig error: "/etc/fonts/local.conf", line 1: not well-formed (invalid token)
+1584222078249	Marionette	INFO	Listening on port 43561
+1584222078251	Marionette	DEBUG	Marionette is listening
+1584222078298	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:51378
+1584222078299	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1584222078300	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584222078331	Marionette	TRACE	[15] Frame script loaded
+1584222078337	Marionette	TRACE	[15] Frame script registered
+1584222078345	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"bae8d360-0382-44c5-afa9-e34ff347fc8b","capabilities":{"browserName":"firefox","browserVersion":"74.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1584222078354	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://uta.pw/sakusibbs/users.php?action=login"}]
+1584222078371	Marionette	TRACE	[15] Received DOM event beforeunload for about:blank
+1584222078982	Marionette	TRACE	[15] Received DOM event pagehide for about:blank
+1584222079119	Marionette	TRACE	[15] Received DOM event DOMContentLoaded for https://uta.pw/sakusibbs/users.php?action=login
+1584222080504	Marionette	TRACE	[15] Received DOM event pageshow for https://uta.pw/sakusibbs/users.php?action=login
+1584222080511	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1584222080530	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"user\"]"}]
+1584222080537	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6f3e8bf7-1407-43c1-99f5-0e1f5d3fa4e4"}}]
+1584222080542	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementClear",{"id":"6f3e8bf7-1407-43c1-99f5-0e1f5d3fa4e4"}]
+1584222080551	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1584222080554	Marionette	DEBUG	0 -> [0,5,"WebDriver:ElementSendKeys",{"id":"6f3e8bf7-1407-43c1-99f5-0e1f5d3fa4e4","text":"test!1234","value":["t","e","s","t","!","1","2","3","4"]}]
+1584222080576	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1584222080580	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"pass\"]"}]
+1584222080588	Marionette	DEBUG	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a1aaa00e-1fcf-43c7-b10a-6c90830f47d8"}}]
+1584222080591	Marionette	DEBUG	0 -> [0,7,"WebDriver:ElementClear",{"id":"a1aaa00e-1fcf-43c7-b10a-6c90830f47d8"}]
+1584222080594	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1584222080597	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"a1aaa00e-1fcf-43c7-b10a-6c90830f47d8","text":"test!1234","value":["t","e","s","t","!","1","2","3","4"]}]
+1584222080613	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1584222080619	Marionette	DEBUG	0 -> [0,9,"WebDriver:FindElement",{"using":"css selector","value":"#loginForm form"}]
+1584222080623	Marionette	DEBUG	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1ac7f665-c6de-4459-92f1-5ab3b0afc342"}}]
+1584222080629	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElement",{"element":"1ac7f665-c6de-4459-92f1-5ab3b0afc342","using":"xpath","value":"./ancestor-or-self::form"}]
+1584222080633	Marionette	DEBUG	0 <- [1,10,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1ac7f665-c6de-4459-92f1-5ab3b0afc342"}}]
+1584222080640	Marionette	DEBUG	0 -> [0,11,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"1ac7f665-c6de-4459-92f1-5ab3b0afc342","element-6066-11e4-a52e-4f735466ce ... bmit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }","scriptTimeout":null,"specialPowers":false}]
+1584222080653	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1584222080662	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"css selector","value":".islogin"}]
+1584222080666	Marionette	DEBUG	0 <- [1,12,{"error":"no such element","message":"Unable to locate element: .islogin","stacktrace":"WebDriverError@chrome://marione ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:331:16\n"},null]
+1584222081170	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElement",{"using":"css selector","value":".islogin"}]
+1584222081173	Marionette	DEBUG	0 <- [1,13,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"961c5f84-929c-44fc-af15-c843de5fdcbb"}}]
+1584222081176	Marionette	DEBUG	0 -> [0,14,"WebDriver:FindElement",{"using":"css selector","value":".islogin a"}]
+1584222081179	Marionette	DEBUG	0 <- [1,14,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d53aa2d3-1aeb-462a-ae94-3614cbfa3988"}}]
+1584222081182	Marionette	DEBUG	0 -> [0,15,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"d53aa2d3-1aeb-462a-ae94-3614cbfa3988","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1584222081202	Marionette	DEBUG	0 <- [1,15,null,{"value":"https://uta.pw/sakusibbs/users.php?user_id=1335"}]
+1584222081207	Marionette	DEBUG	0 -> [0,16,"WebDriver:Navigate",{"url":"https://uta.pw/sakusibbs/users.php?user_id=1335"}]
+1584222081253	Marionette	TRACE	[15] Received DOM event beforeunload for https://uta.pw/sakusibbs/index.php
+1584222081365	Marionette	TRACE	[15] Received DOM event pagehide for https://uta.pw/sakusibbs/index.php
+1584222081367	Marionette	TRACE	[15] Received DOM event unload for https://uta.pw/sakusibbs/index.php
+1584222081401	Marionette	TRACE	[15] Received DOM event DOMContentLoaded for https://uta.pw/sakusibbs/users.php?user_id=1335
+1584222081419	Marionette	TRACE	[15] Received observer notification outer-window-destroyed
+1584222081420	Marionette	TRACE	[15] Received observer notification outer-window-destroyed
+1584222081421	Marionette	TRACE	[15] Received observer notification outer-window-destroyed
+1584222081552	Marionette	TRACE	[15] Received DOM event pageshow for https://uta.pw/sakusibbs/users.php?user_id=1335
+1584222081556	Marionette	DEBUG	0 <- [1,16,null,{"value":null}]
+1584222081570	Marionette	DEBUG	0 -> [0,17,"WebDriver:FindElements",{"using":"css selector","value":"#favlist li > a"}]
+1584222081577	Marionette	DEBUG	0 <- [1,17,null,[{"element-6066-11e4-a52e-4f735466cecf":"2094eb5a-d17a-4592-97e9-e8e62805425c"}]]
+1584222081583	Marionette	DEBUG	0 -> [0,18,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"2094eb5a-d17a-4592-97e9-e8e62805425c","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
+1584222081596	Marionette	DEBUG	0 <- [1,18,null,{"value":"https://uta.pw/sakusibbs/post.php?mml_id=865"}]
+1584222081602	Marionette	DEBUG	0 -> [0,19,"WebDriver:GetElementText",{"id":"2094eb5a-d17a-4592-97e9-e8e62805425c"}]
+1584222081630	Marionette	DEBUG	0 <- [1,19,null,{"value":"kanan⇔遠慮がちなlove by 月城 麻里奈"}]
+1584222081656	Marionette	DEBUG	Closed connection 0
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
